@@ -255,6 +255,29 @@ function progressCircle() {
 
 }
 
+
+/*------------------
+ NavBar active Link
+--------------------*/
+function navActiveLinks() {
+
+	$(window).on('load', function() {
+	  let hash = window.location.hash;
+	  if (hash) {
+	  	$('a[href="' + hash + '"]').closest('li').addClass('active');
+	  } else {
+	  	$('a[href="#top"]').closest('li').addClass('active');
+	  }
+	});
+
+	$(window).on('hashchange', function() {
+	  let hash = window.location.hash;
+	  $('a').closest('li').removeClass('active');
+	  $('a[href="' + hash + '"]').closest('li').addClass('active');
+	});
+}
+
+
 (function($) {
 	// Call all functions
 	loader();
@@ -265,5 +288,6 @@ function progressCircle() {
 	videoPopup();
 	accordions();
 	progressCircle();
+	navActiveLinks();
 
 })(jQuery);
