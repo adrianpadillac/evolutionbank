@@ -514,7 +514,7 @@ ul {
   Testimonial section
 --------------------------*/
 .testimonial-section {
-	padding-top: 320px;
+	padding-top: 100px;
 	background: #220c3b;
 	position: relative;
 }
@@ -635,7 +635,8 @@ ul {
 	header and icon box element
 ------------------------------------*/
 .service {
-	margin-bottom: 90px;
+	margin-bottom: 30px;
+	min-height: 250px;
 }
 
 .service,

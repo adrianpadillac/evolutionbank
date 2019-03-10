@@ -173,7 +173,7 @@ function testimonial() {
 				items:2
 			},
 			1000:{
-				items:2
+				items:3
 			}
 		}
 	});
