@@ -12,7 +12,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -25,7 +25,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Oswald", sans-serif;
 	padding: 0;
 	margin: 0;
 }
@@ -38,7 +37,6 @@ p {
 	font-size: 15px;
 	color: #6c6e7e;
 	line-height: 30px;
-	font-family: "Roboto", sans-serif;
 }
 
 a:hover,
@@ -156,7 +154,6 @@ ul {
 --------------------------*/
 
 .site-btn {
-	font-family: "Oswald", sans-serif;
 	font-size: 15px;
 	color: #641fb1;
 	display: inline-block;
@@ -292,7 +289,6 @@ ul {
 	margin-right: 15px;
 	color: #222;
 	position: relative;
-	font-family: "Roboto", sans-serif;
 	font-size: 15px;
 	letter-spacing: 0.09em;
 	-webkit-transition: all 0.4s ease 0s;
@@ -531,7 +527,6 @@ ul {
 
 .testimonial span {
 	display: block;
-	font-family: "Roboto", sans-serif;
 	font-size: 48px;
 	color: #6a23b5;
 }
@@ -884,7 +879,6 @@ ul {
 .page-top-section .page-info .page-links a,
 .page-top-section .page-info .page-links span {
 	font-size: 18px;
-	font-family: "Oswald", sans-serif;
 	color: #fff;
 	margin-right: 12px;
 	padding-right: 12px;
@@ -1110,7 +1104,6 @@ ul {
 }
 
 .read-more {
-	font-family: "Oswald", sans-serif;
 	font-size: 16px;
 	color: #0b1033;
 	position: relative;
@@ -1133,7 +1126,6 @@ ul {
 
 .page-pagination a {
 	display: inline-block;
-	font-family: "Oswald", sans-serif;
 	font-size: 16px;
 	color: #0b1033;
 	padding: 6px 10px;
@@ -1304,7 +1296,6 @@ ul {
 
 .comment-list li .commetn-text h3 {
 	font-size: 15px;
-	font-family: "Roboto", sans-serif;
 	margin-bottom: 30px;
 	font-weight: 600;
 }
@@ -1336,7 +1327,6 @@ ul {
 }
 
 .single-progress-item p {
-	font-family: "Oswald", sans-serif;
 	color: #333;
 	margin-bottom: 12px;
 	font-weight: 500;
@@ -1363,7 +1353,6 @@ ul {
 	right: 0;
 	font-weight: bold;
 	top: -35px;
-	font-family: "Oswald", sans-serif;
 	color: #333;
 	font-weight: 500;
 }
@@ -1388,7 +1377,6 @@ ul {
 
 .site-accordions .panel-heading .panel-title {
 	font-size: 15px;
-	font-family: "Roboto", sans-serif;
 	text-transform: none;
 	margin: 0;
 	-webkit-transition: all 0.4s ease 0s;
@@ -1452,7 +1440,6 @@ ul {
 }
 
 .circle-progress .progress-info p {
-	font-family: "Roboto", sans-serif;
 	color: #7c8d93;
 	font-size: 14px;
 	font-weight: 600;
@@ -1473,7 +1460,6 @@ ul {
 }
 
 .facts .fact .fact-text h2 {
-	font-family: "Roboto", sans-serif;
 	font-size: 72px;
 	color: #2be6ab;
 	font-weight: 600;
