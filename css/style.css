@@ -704,6 +704,9 @@ ul {
 
 .member img {
 	margin-bottom: 60px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px; 
 }
 
 .member h2 {
