@@ -298,6 +298,7 @@ ul {
 
 .header-section .menu-list li a:hover,
 .header-section .menu-list li a.active {
+	background: #2be6ab;
 	color: #6a23b5;
 }
 
