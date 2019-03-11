@@ -115,7 +115,7 @@ ul {
 
 .section-title h2 {
 	text-transform: uppercase;
-	color: #fff;
+	color: black;
 	font-weight: 400;
 }
 
@@ -399,7 +399,7 @@ ul {
 --------------------------*/
 .about-section,
 .team-section {
-	background: #6a23b5;
+	background: #ffffff;
 	position: relative;
 	z-index: 2;
 }
@@ -479,7 +479,7 @@ ul {
 }
 
 .about-contant p {
-	color: #fff;
+	color: black;
 }
 
 .intro-video {
@@ -516,7 +516,7 @@ ul {
 --------------------------*/
 .testimonial-section {
 	padding-top: 100px;
-	background: #220c3b;
+	background: #ffffff;
 	position: relative;
 }
 
@@ -539,7 +539,7 @@ ul {
 
 .testimonial p {
 	font-style: italic;
-	color: #fff;
+	color: black;
 	font-weight: 400;
 	line-height: 36px;
 }
@@ -564,7 +564,7 @@ ul {
 
 .testimonial .client-name h2 {
 	font-size: 18px;
-	color: #fff;
+	color: black;
 	font-weight: 400;
 }
 
@@ -714,7 +714,7 @@ ul {
 	font-size: 24px;
 	font-weight: 400;
 	margin-bottom: 20px;
-	color: #fff;
+	color: black;
 }
 
 .member h3 {
@@ -767,7 +767,7 @@ ul {
 	height: 100%;
 	right: -15px;
 	top: 0;
-	background: #6a23b5;
+	background: #ffffff;
 	z-index: -1;
 }
 
@@ -828,7 +828,7 @@ ul {
 }
 
 .contact-info p {
-	color: #fff;
+	color: black;
 }
 
 .contact-info h3 {
@@ -846,14 +846,14 @@ ul {
 	Footer section
 --------------------------*/
 .footer-section {
-	background: #220c3b;
+	background: black;
 	text-align: center;
 }
 
 .footer-section h2 {
-	color: #6a23b5;
-	font-size: 14px;
-	padding: 18px 0;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 40px 0;
 }
 
 /*=========================
