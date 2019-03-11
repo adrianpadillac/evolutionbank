@@ -121,22 +121,13 @@ ul {
 }
 
 .section-title h2 span {
-	background: #2be6ab;
+	background: #86f9bc;
 	padding: 0 3px 5px;
 	display: inline-block;
 	color: #0b1033;
 }
 
-.section-title:after {
-	content: "";
-	position: absolute;
-	left: 50%;
-	top: 0;
-	width: 5px;
-	height: 30px;
-	margin-left: -2.5px;
-	background: #2be6ab;
-}
+
 
 .section-title.left {
 	text-align: left;
@@ -269,7 +260,7 @@ ul {
 .header-section .logo {
 	display: inline-block;
 	float: left;
-	padding-top: 30px;
+	padding-top: 15px;
 }
 
 .header-section .logo img {
@@ -290,11 +281,11 @@ ul {
 
 .header-section .menu-list li a {
 	display: inline-block;
-	padding: 35px 15px;
+	padding: 20px 15px;
 	margin-right: 15px;
 	color: #222;
 	position: relative;
-	font-size: 15px;
+	font-size: 16px;
 	letter-spacing: 0.09em;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -303,8 +294,8 @@ ul {
 
 .header-section .menu-list li a:hover,
 .header-section .menu-list li a.active {
-	background: #2be6ab;
-	color: #6a23b5;
+	background: #0083A1;
+	color: #222222;
 }
 
 .header-section .menu-list li:last-child a {
@@ -312,8 +303,9 @@ ul {
 }
 
 .header-section .menu-list li.active a {
-	background: #2be6ab;
-	color: #6a23b5;
+	background: #86f9bc;
+	color: #222222;
+	font-weight: bold;
 }
 
 .header-section .menu-list .current a:after {
@@ -378,7 +370,7 @@ video {
 
 .owl-carousel .owl-nav .owl-prev:hover,
 .owl-carousel .owl-nav .owl-next:hover {
-	background: #2be6ab;
+	background: #86f9bc;
 }
 
 .owl-carousel .owl-nav .owl-next {
@@ -389,7 +381,7 @@ video {
 	width: 0%;
 	max-width: 100%;
 	height: 4px;
-	background: #2be6ab;
+	background: #86f9bc;
 }
 
 .owl-carousel #progressBar {
@@ -469,7 +461,7 @@ video {
 }
 
 .lab-card:hover {
-	background: #2be6ab;
+	background: #86f9bc;
 }
 
 .lab-card:hover h2,
@@ -509,7 +501,7 @@ video {
 	margin-left: -30px;
 	margin-top: -30px;
 	color: #6a23b5;
-	background: #2be6ab;
+	background: #86f9bc;
 	border-radius: 50%;
 	text-align: center;
 	padding-top: 20px;
@@ -725,7 +717,7 @@ video {
 
 .member h3 {
 	font-size: 14px;
-	color: #2be6ab;
+	color: #86f9bc;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -735,7 +727,7 @@ video {
 	Promotion section
 --------------------------*/
 .promotion-section {
-	background: #2be6ab;
+	background: #86f9bc;
 	padding: 115px 0;
 }
 
@@ -839,7 +831,7 @@ video {
 
 .contact-info h3 {
 	font-weight: 400;
-	color: #2be6ab;
+	color: #86f9bc;
 	margin-bottom: 20px;
 }
 
@@ -912,7 +904,7 @@ video {
 .page-top-section .page-info .page-links span {
 	margin-right: 0;
 	padding-right: 0;
-	color: #2be6ab;
+	color: #86f9bc;
 }
 
 .page-top-section .page-info .page-links span:after {
@@ -924,7 +916,7 @@ video {
 	Features Section
 --------------------------*/
 .features .icon-box .icon {
-	color: #2be6ab;
+	color: #86f9bc;
 	margin-top: -10px;
 }
 
@@ -959,7 +951,7 @@ video {
 	left: 0;
 	top: 0;
 	z-index: 1;
-	background: #2be6ab;
+	background: #86f9bc;
 	opacity: 0;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -991,7 +983,7 @@ video {
 	Newsletter Section
 --------------------------*/
 .newsletter-section {
-	background: #2be6ab;
+	background: #86f9bc;
 }
 
 .newsletter-section h2 {
@@ -1080,7 +1072,7 @@ video {
 
 .post-thumbnail .post-date h3 {
 	font-size: 15px;
-	color: #2be6ab;
+	color: #86f9bc;
 	font-weight: 400;
 }
 
@@ -1111,7 +1103,7 @@ video {
 	height: 7px;
 	left: 0;
 	top: 3px;
-	background: #2be6ab;
+	background: #86f9bc;
 	border-radius: 10px;
 }
 
@@ -1136,7 +1128,7 @@ video {
 	height: 3px;
 	left: 0;
 	bottom: 0;
-	background: #2be6ab;
+	background: #86f9bc;
 	border-radius: 10px;
 }
 
@@ -1149,7 +1141,7 @@ video {
 }
 
 .page-pagination a.active {
-	background: #2be6ab;
+	background: #86f9bc;
 }
 
 /* Sidebar */
@@ -1175,7 +1167,7 @@ video {
 }
 
 .widget-item ul li a:hover {
-	color: #2be6ab;
+	color: #86f9bc;
 }
 
 .widget-item ul li:last-child a {
@@ -1199,7 +1191,7 @@ video {
 
 .widget-item ul.tag li {
 	display: inline-block;
-	background: #2be6ab;
+	background: #86f9bc;
 	padding: 10px 24px;
 	float: left;
 	margin-right: 10px;
@@ -1213,7 +1205,7 @@ video {
 
 .widget-item .quote .quotation {
 	display: block;
-	color: #2be6ab;
+	color: #86f9bc;
 	font-size: 60px;
 	line-height: normal;
 	margin-bottom: -20px;
@@ -1226,7 +1218,7 @@ video {
 .search-form input[type="text"] {
 	width: 100%;
 	border: none;
-	background: #2be6ab;
+	background: #86f9bc;
 	padding: 15px 20px;
 }
 
@@ -1244,7 +1236,7 @@ video {
 	top: 0;
 	border: 0;
 	background: #6a23b5;
-	color: #2be6ab;
+	color: #86f9bc;
 }
 
 .search-form .search-btn:focus,
@@ -1361,7 +1353,7 @@ video {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #2be6ab;
+	background: #86f9bc;
 }
 
 .bar-inner span {
@@ -1422,7 +1414,7 @@ video {
 }
 
 .site-accordions .panel.active .panel-heading {
-	background: #2be6ab;
+	background: #86f9bc;
 	color: #6a23b5;
 }
 
@@ -1432,7 +1424,7 @@ video {
 
 .site-accordions .panel.active .panel-heading a:after {
 	content: "-";
-	color: #2be6ab;
+	color: #86f9bc;
 	left: 23px;
 	padding-top: 13px;
 }
@@ -1477,7 +1469,7 @@ video {
 
 .facts .fact .fact-text h2 {
 	font-size: 72px;
-	color: #2be6ab;
+	color: #86f9bc;
 	font-weight: 600;
 	margin-bottom: 5px;
 }
