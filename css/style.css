@@ -318,13 +318,11 @@ ul {
 --------------------------*/
 video {
 	width: 100%;
-
 }
 
 .hero-section {
-	height: 100%;
 	position: relative;
-	padding-top: 91px;
+	padding-top: 62px;
 }
 
 .hero-content {
