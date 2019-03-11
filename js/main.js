@@ -158,22 +158,22 @@ function testimonial() {
 	// testimonial Carousel 
 	$('#testimonial-slide').owlCarousel({
 		loop:true,
-		autoplay:true,
+		// autoplay:true,
 		margin:30,
 		nav:false,
-		dots: true,
+		// dots: true,
 		responsive:{
 			0:{
 				items:1
 			},
 			600:{
-				items:2
+				items:1
 			},
 			800:{
-				items:2
+				items:1
 			},
 			1000:{
-				items:3
+				items:1
 			}
 		}
 	});
@@ -263,11 +263,7 @@ function navActiveLinks() {
 
 	$(window).on('load', function() {
 	  let hash = window.location.hash;
-	  if (hash) {
-	  	$('a[href="' + hash + '"]').closest('li').addClass('active');
-	  } else {
-	  	$('a[href="#top"]').closest('li').addClass('active');
-	  }
+		$('a[href="' + hash + '"]').closest('li').addClass('active');
 	});
 
 	$(window).on('hashchange', function() {
