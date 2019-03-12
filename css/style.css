@@ -31,8 +31,13 @@ h6 {
 }
 
 h2 {
+	font-size: 60px;
+	font-weight: 900;
+}
+
+h3 {
 	font-size: 40px;
-	font-weight: bold;
+	font-weight: 700px;
 }
 
 p {
@@ -45,8 +50,8 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #222222;
-	background: #fa7268;
+	color: #ffffff;
+	background: #222222;
 }
 
 li,
@@ -116,8 +121,7 @@ ul {
 }
 
 .section-title h2 {
-	text-transform: uppercase;
-	color: black;
+	color: #222222;
 	font-weight: 900;
 }
 
@@ -147,15 +151,19 @@ ul {
 	Common elements
 --------------------------*/
 
+.comentario {
+	padding-top: 20px;
+
+}
+
 .site-btn {
-	font-size: 15px;
-	color: #ffffff;
+	font-size: 16px;
+	color: #222222;
 	display: inline-block;
-	text-transform: uppercase;
-	background: #222222;
+	background: #fa7268;
 	padding: 15px 50px;
-	font-weight: 500;
-	letter-spacing: 1px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
 	min-width: 170px;
 	text-align: center;
 	border: none;
@@ -286,7 +294,7 @@ ul {
 	margin-right: 15px;
 	color: #222;
 	position: relative;
-	font-size: 16px;
+	font-size: 14px;
 	letter-spacing: 0.09em;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -295,8 +303,8 @@ ul {
 
 .header-section .menu-list li a:hover,
 .header-section .menu-list li a.active {
-	background: #0083A1;
-	color: #222222;
+	background: #22222;
+	color: #ffffff;
 }
 
 .header-section .menu-list li:last-child a {
@@ -306,7 +314,7 @@ ul {
 .header-section .menu-list li.active a {
 	background: #fa7268;
 	color: #222222;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .header-section .menu-list .current a:after {
@@ -317,13 +325,13 @@ ul {
 /*------------------------
 	Hero section
 --------------------------*/
-video {
+.video {
 	width: 100%;
 }
 
 .hero-section {
 	position: relative;
-	padding-top: 62px;
+	padding-top: 0px;
 }
 
 .hero-content {
@@ -442,9 +450,10 @@ video {
 }
 
 .lab-card h2 {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 18px;
-	color: #2b1640;
+	font-weight: 700;
+	color: #fa7268;
 	margin-bottom: 30px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -452,7 +461,8 @@ video {
 }
 
 .lab-card p {
-	color: #6c6e7e;
+	font-size: 18px;
+	color: #9b9b9b;
 	line-height: 30px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -534,8 +544,7 @@ video {
 }
 
 .testimonial span {
-	display: block;
-	font-size: 100px;
+	font-size: 200px;
 	color: #fa7268;
 }
 
@@ -563,10 +572,10 @@ video {
 	padding-top: 20px;
 }
 
-.testimonial .client-name h2 {
+.testimonial .client-name h3 {
 	font-size: 24x;
 	color: black;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .testimonial .client-name p {
@@ -589,7 +598,7 @@ video {
 #testimonial-slide .owl-dots .owl-dot {
 	width: 8px;
 	height: 8px;
-	background: #90F9C2;
+	background: #222222;
 	border-radius: 15px;
 	display: block;
 	margin: 25px 15px;
@@ -604,7 +613,7 @@ video {
 	content: "";
 	width: 28px;
 	height: 28px;
-	border: 2px solid #6a23b5;
+	border: 2px solid #fa7268;
 	border-radius: 40px;
 	left: -10px;
 	top: -10px;
@@ -617,7 +626,7 @@ video {
 }
 
 #testimonial-slide .owl-dots .owl-dot.active {
-	background: #6a23b5;
+	background: #222222;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
