@@ -158,7 +158,7 @@ function testimonial() {
 	// testimonial Carousel 
 	$('#testimonial-slide').owlCarousel({
 		loop:true,
-		// autoplay:true,
+		autoplay:true,
 		margin:30,
 		nav:false,
 		// dots: true,

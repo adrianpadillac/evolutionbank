@@ -298,8 +298,7 @@ ul {
 .header-section .menu-list li a {
 	display: inline-block;
 	padding: 20px 15px;
-	margin-right: 15px;
-	color: #222;
+    color: #222;
 	position: relative;
 	font-size: 14px;
 	letter-spacing: 0.09em;
