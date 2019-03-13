@@ -42,7 +42,7 @@ h3 {
 
 p {
 	font-size: 20px;
-	color: #222222;
+	color: #9b9b9b;
 	line-height: 30px;
 }
 
@@ -56,8 +56,15 @@ a:focus {
 
 li,
 ul {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.ventajas {
+	font-weight: 700;
+	color: #fa7268;
+	font-size: 18px;
 }
 
 /*------------------------
@@ -109,13 +116,13 @@ ul {
 }
 
 .spad {
-	padding-top: 95px;
-	padding-bottom: 95px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .section-title {
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	padding-top: 50px;
 	position: relative;
 }
@@ -522,7 +529,7 @@ ul {
   Testimonial section
 --------------------------*/
 .testimonial-section {
-	padding-top: 100px;
+	padding-top: 50px;
 	background: #ffffff;
 	position: relative;
 }
@@ -574,7 +581,7 @@ ul {
 
 .testimonial .client-name h3 {
 	font-size: 24x;
-	color: black;
+	color: #fa7268;
 	font-weight: 700;
 }
 
@@ -642,8 +649,8 @@ ul {
 	header and icon box element
 ------------------------------------*/
 .service {
-	margin-bottom: 30px;
-	min-height: 250px;
+	margin-bottom: 50px;
+
 }
 
 .service,
@@ -664,9 +671,9 @@ ul {
 .icon-box .service-text h2,
 .icon-box .icon-box-text h2 {
 	font-size: 18px;
-	text-transform: uppercase;
 	margin-bottom: 20px;
-	font-weight: 400;
+	font-weight: 700;
+	color: #fa7268;
 }
 
 .service .service-text p,
@@ -712,8 +719,8 @@ ul {
 .member img {
 	margin-bottom: 60px;
 	border-radius: 50%;
-	height: 200px;
-	width: 200px; 
+	height: 150px;
+	width: 150px; 
 }
 
 .member h2 {
@@ -724,11 +731,10 @@ ul {
 }
 
 .member h3 {
-	font-size: 14px;
+	font-size: 18px;
 	color: #fa7268;
-	font-weight: 400;
-	text-transform: uppercase;
-}
+	font-weight: 700;
+	}
 
 
 /*------------------------
@@ -852,11 +858,11 @@ ul {
 	Footer section
 --------------------------*/
 .footer-section {
-	background: black;
+	background: #222222;
 	text-align: center;
 }
 
-.footer-section h2 {
+.footer-section p {
 	color: #ffffff;
 	font-size: 12px;
 	padding: 40px 0;
