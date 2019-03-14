@@ -1601,6 +1601,11 @@ height: 5px;
 
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
+	h2 {
+		font-size: 20px;
+		text-align: left;
+		padding-left: 10px;
+	}
 
 	.video{
 		padding-top: 38px;
